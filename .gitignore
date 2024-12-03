@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# compiled output
+/dist
+
+# OS
+.DS_Store

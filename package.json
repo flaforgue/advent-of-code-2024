@@ -1,0 +1,26 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "description": "Advent of Code 2024",
+  "scripts": {
+    "start": "node --require ts-node/register",
+    "test": "node --require ts-node/register --test **/*.test.ts",
+    "watch": "node --require ts-node/register --test --watch ./src/days/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^2.11.0",
+    "@stylistic/eslint-plugin-ts": "^2.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
+  "dependencies": {
+    "@types/node": "^22.10.1"
+  }
+}

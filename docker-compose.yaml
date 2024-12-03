@@ -1,0 +1,6 @@
+services:
+  main:
+    build: .
+    working_dir: /srv/node
+    volumes:
+      - .:/srv/node:rw,cached

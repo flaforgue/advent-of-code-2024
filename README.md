@@ -8,6 +8,10 @@ cd ./advent-of-code-2024
 docker-compose up
 ```
 
+## Start a day
+
+Copy paste `src/days/0`
+
 ## Test
 
 ```

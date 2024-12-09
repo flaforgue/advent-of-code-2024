@@ -16,7 +16,9 @@ suite('Day xxx - part 1', () => {
   describe('runTask', () => {
     describe('when xxx', () => {
       it('should xxx', () => {
-        const result = runTask('xxx');
+        const input = 'xxx';
+
+        const result = runTask(input);
 
         assert.strictEqual(result, 'xxx');
       });

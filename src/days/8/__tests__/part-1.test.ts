@@ -2,7 +2,7 @@ import assert from 'node:assert';
 import { beforeEach, describe, it, suite } from 'node:test';
 import { ParsedInput, parseInput, runTask } from '../part-1';
 
-suite.only('Day 8 - part 1', () => {
+suite('Day 8 - part 1', () => {
   describe('parseInput', () => {
     const sampleInputPath = `${__dirname}/sample.txt`;
 

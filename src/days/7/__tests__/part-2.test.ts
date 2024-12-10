@@ -2,7 +2,7 @@ import assert from 'node:assert';
 import { describe, it, suite } from 'node:test';
 import { runTask } from '../part-2';
 
-suite.only('Day 7 - part 2', () => {
+suite('Day 7 - part 2', () => {
   describe('runTask', () => {
     describe('when one calibration given', () => {
       describe('when two values given', () => {
